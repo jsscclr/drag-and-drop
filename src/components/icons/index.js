@@ -1,0 +1,5 @@
+export { default as ElementsIcon } from "./elements-icon"
+export { default as LayoutIcon } from "./layout-icon"
+export { default as TextIcon } from "./text-icon"
+export { default as UpArrowIcon } from "./up-arrow-icon"
+export { default as SearchIcon } from "./search-icon"

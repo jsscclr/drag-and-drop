@@ -1,0 +1,44 @@
+@keyframes :local(appear) {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  100% {
+    opacity: 30%;
+  }
+}
+
+@keyframes :local(active) {
+  0% {
+    opacity: 30%;
+    filter: grayscale(70%);
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes :local(fadeOut) {
+  0% {
+    opacity: 1;
+    transform: scale(0.5);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.25);
+  }
+}
+
+.canvas {
+  --gap: 4px;
+
+  background: var(--canva-light);
+  height: 25rem;
+  width: 50rem;
+  margin: auto;
+  margin-top: 10%;
+  position: relative;
+}

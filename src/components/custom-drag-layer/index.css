@@ -1,0 +1,33 @@
+@keyframes :local(appear) {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0.95;
+    transform: scale(1.1)
+  }
+}
+
+.customDragLayer {
+  top: 0;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+  position: fixed;
+  z-index: 5;
+  height: 100%;
+  width: 100%;
+}
+
+.dragPreview {
+  transform: translate(var(--x), var(--y));
+}
+
+.dragPreview img {
+  animation: appear 0.3s forwards var(--easing);
+  outline: 1px solid var(--canva-light-overlay);
+  outline-offset: -1px;
+  filter: drop-shadow(0 4px 3px canva(--canva-dark-overlay));
+  height: 5.56rem;
+}

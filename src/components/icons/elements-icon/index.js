@@ -1,0 +1,13 @@
+import React from "react"
+
+const ElementsIcon = () => (
+  <svg width="32" height="32" fill="none" viewBox="0 0 32 32">
+    <path
+      fill="currentColor"
+      fillRule="evenodd"
+      d="M11.1 9.7l2.1 3.6H9l2.1-3.6zm0-3.5L6 15h10.2l-5.1-8.8zM25 11h-7v7h7v-7zm-1.8 5.3v-3.5h-3.5v3.5h3.5zM14 18c-2.2 0-4 1.8-4 4s1.8 4 4 4 4-1.8 4-4-1.8-4-4-4zm2.2 4c0-1.2-1-2.2-2.2-2.2-1.2 0-2.2 1-2.2 2.2 0 1.2 1 2.2 2.2 2.2 1.2 0 2.2-1 2.2-2.2z"
+    />
+  </svg>
+)
+
+export default ElementsIcon

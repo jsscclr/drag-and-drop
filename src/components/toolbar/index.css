@@ -1,0 +1,5 @@
+.toolbar {
+  background: var(--canva-light);
+  border-bottom: 1px solid var(--canva-dark-overlay);
+  padding: calc(var(--spacing-unit) * 2);
+}

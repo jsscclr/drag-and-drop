@@ -1,0 +1,18 @@
+.button {
+  border: none;
+  border-radius: var(--border-radius);
+  color: var(--canva-light);
+  font-weight: 600;
+  height: 2.5rem;
+  margin-left: var(--spacing-unit);
+  width: 5rem;
+}
+
+.overlay {
+  background: var(--canva-dark-overlay);
+}
+
+.secondary {
+  background: var(--canva-light);
+  color: var(--canva-dark);
+}

@@ -1,0 +1,16 @@
+.search {
+  align-items: center;
+  background: var(--canva-light);
+  border-radius: var(--border-radius);
+  display: flex;
+  height: 2.5rem;
+  grid-column: span 12;
+  padding: var(--spacing-unit);
+}
+
+.searchInput {
+  background: none;
+  border: none;
+  flex: 1;
+  line-height: 1.57;
+}

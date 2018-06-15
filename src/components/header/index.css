@@ -1,0 +1,12 @@
+.header {
+  align-items: center;
+  background:
+    linear-gradient(
+      to right,
+      var(--canva-teal),
+      var(--canva-purple)
+    );
+  color: var(--canva-light);
+  display: flex;
+  padding: 0 calc(var(--spacing-unit) * 2);
+}

@@ -1,0 +1,27 @@
+.draggableImage {
+  grid-column: span var(--column-span, 2);
+  transition: outline 0.1s;
+}
+
+.draggableImage img {
+  height: 100%;
+  object-fit: cover;
+  max-height: 100%;
+  max-width: 100%;
+  width: 100%;
+  transition: filter 0.4s var(--easing);
+}
+
+.draggableImage:hover {
+  cursor: pointer;
+}
+
+.dragged,
+.draggableImage:hover {
+  outline: 1px solid var(--canva-light-overlay);
+  outline-offset: -1px;
+}
+
+.dragged img {
+  filter: blur(0.9px) grayscale(70%);
+}

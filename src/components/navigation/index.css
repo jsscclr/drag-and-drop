@@ -1,0 +1,11 @@
+.navigation {
+  align-items: center;
+  display: inline-flex;
+  font-size: 0.875rem;
+  margin-right: auto;
+  padding: 0 calc(var(--spacing-unit) * 2);
+}
+
+.navigationItem {
+  padding: calc(var(--spacing-unit) * 2);
+}
